@@ -1,0 +1,64 @@
+<style>
+/* Fonts */
+<link rel="stylesheet" href="https://use.typekit.net/jli5wpo.css">
+/* Fonts */
+
+h1, h2, p {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+p   {
+  text-align: center;
+}
+body{
+  background-image: url(https://static.wikia.nocookie.net/disney/images/f/ff/Profile_-_Kuzco.jpeg/revision/latest?cb=20190312061956);
+}
+.kuzco {
+  height: 55%;
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display:  block;
+}
+
+h1, h2 {
+  font-family: source-sans-pro,sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.menu {
+  width: 80%;
+  max-width: 700px;
+  background-color: indianred;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+.flavor, .dessert {
+  text-align: left; 
+  width: 75%;
+  font: bold;
+}
+/*.dessert {
+  text-align: left; 
+  width: 75%;
+}*/
+.price {
+  text-align: right;
+  width: 25%;
+}
+.item p {
+  display: inline-block;
+  font:  bold;
+}
+.established {
+  font-style: italic;
+}
+</style>
