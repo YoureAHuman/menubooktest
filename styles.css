@@ -1,6 +1,9 @@
 <style>
 /* Fonts */
 <link rel="stylesheet" href="https://use.typekit.net/jli5wpo.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet"> 
 /* Fonts */
 
 h1, h2, p {
@@ -8,6 +11,9 @@ h1, h2, p {
 }
 h1 {
   text-align: center;
+  font-size: 50px;
+  margin-top: 0px;
+  margin-bottom: 15px;
 }
 h2 {
   text-align: center;
@@ -16,13 +22,26 @@ p   {
   text-align: center;
 }
 body{
+  padding:  20px;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+   background-size: cover;
+
+  background-image: url(https://m.media-amazon.com/images/M/MV5BMTQ4NzE1OTkxN15BMl5BanBnXkFtZTcwNDkxOTAyNw@@._V1_.jpg);
+
+  /*
   background-image: url(https://static.wikia.nocookie.net/disney/images/f/ff/Profile_-_Kuzco.jpeg/revision/latest?cb=20190312061956);
+*/
+
 }
 .kuzco {
   height: 55%;
   width: 55%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 15px;
   text-align: center;
   display:  block;
 }
@@ -32,33 +51,72 @@ h1, h2 {
 font-weight: 700;
 font-style: normal;
 }
+hr {
+  border-color: gold;
+  background-color: gold;
+  height: 1.2px;
+}
+
+.footer  {
+  font-size: 15px;
+}
 
 .menu {
   width: 80%;
   max-width: 700px;
-  background-color: indianred;
+  background-color: #9b1c31;
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
+  color: white;
 }
 .flavor, .dessert {
   text-align: left; 
   width: 75%;
-  font: bold;
+  
+  font-family: 'Libre Baskerville',serif;
 }
 /*.dessert {
   text-align: left; 
   width: 75%;
+  }
 }*/
-.price {
+
+.price  {
   text-align: right;
   width: 25%;
+  font-family: 'Libre Baskerville',serif;
 }
-.item p {
+.price2  {
+
+  text-align: right;
+  width: 25%;
+  font-family: 'Libre Baskerville',serif;
+}
+.item  p{
   display: inline-block;
   font:  bold;
+   margin-top: 5px;
+  margin-bottom: 5px;
 }
+
 .established {
   font-style: italic;
+}
+
+
+
+/* Footer */
+.address {
+  margin-bottom: 5px;
+}
+.kuzcoayy  {
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display:  block;
+  height: 20%;
+  width: 30%;
 }
 </style>
